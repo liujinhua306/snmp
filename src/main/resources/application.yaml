@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/NXSOC5
+    username: postgres
+    password: 12345)(*&^%RFVwsx
+    driver-class-name: org.postgresql.Driver
+server:
+  port: 8880
+thread-pool:
+  corePoolSize: 10
+  maxPoolSize: 50
+  queueCapacity: 200
+task:
+  cron:
+    nsfocus: 0 0/1 * * * ?
